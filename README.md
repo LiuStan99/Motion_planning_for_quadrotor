@@ -20,10 +20,19 @@ The **newly added** functionalities by us are:
 
 Please refer to our [report](/RO47005_FinalReport.pdf) for detailed infomation.
 
-### Dependencies
-numpy, matplotlib, rtree-linux, scipy, CVXPY, CVXOPT
+### Installation
+>Dependencies: numpy, matplotlib, rtree-linux, scipy, CVXPY, CVXOPT
+```
+cd Motion_planning_for_quadrotor
+conda env create -f environment.yml
+```
 
 ### Usage
+Activate environment first
+```
+cd Motion_planning_for_quadrotor
+conda activate MPQ
+```
 #### K-PRM* with Minisnap and Corridor Bounding Method
 ```
 python runsim_prm.py

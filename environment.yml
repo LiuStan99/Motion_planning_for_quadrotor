@@ -1,0 +1,16 @@
+name: MPQ
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - cvxpy
+  - cvxopt
+  - python=3.7.12
+  - matplotlib
+  - rtree
+  - scipy
+  - pip
+  - pip:
+    - networkx
+

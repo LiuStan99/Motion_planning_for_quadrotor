@@ -4,3 +4,4 @@ _pycache_/
 evaluation.py
 profiling.py
 runsim_prof.py
+*.pyc
